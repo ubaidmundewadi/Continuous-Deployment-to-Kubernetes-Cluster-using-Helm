@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         registry = "ubaidmundewadidocker/vprofileapp"
-        registryCredential = 'dockerhub'
+        registryCredential = 'dockerlogin'
     }
 
     stages{
